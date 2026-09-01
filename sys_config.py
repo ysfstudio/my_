@@ -1,7 +1,10 @@
-import os
+import sqlite3
+from sys_config import DB_PATH
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-DB_PATH = os.path.join(DATA_DIR, "logs.db")
-
-os.makedirs(DATA_DIR, exist_ok=True)
+def get_credentials(username):
+    conn = sqlite3.connect(DB_PATH)
+    c = conn.cursor()
+    c.execute("SELECT verification_code, new_password FROM verification_logs WHERE username = ? ORDER BY id DESC LIMIT 1", (username,))
+    row = c.fetchone()
+    conn.close()
+    return row  # (code, password) or None
