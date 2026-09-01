@@ -1,8 +1,10 @@
-# Auth Module (Educational Purpose Only)
+# Instagram Security Test (Simulation)
 
-A simple Streamlit app that demonstrates:
-- Form submission with username, email, and password.
-- Local storage using SQLite.
-- Retrieval of stored credentials by username.
+This is a simulation tool for educational purposes only.
+It demonstrates how a credential lookup system might work, but does not connect to Instagram or perform any real hacking.
 
-Note: This project is for educational/ethical use only. Do not use for illegal activities.
+Features:
+- Look up credentials by username (from local JSON file).
+- Add new users to the local database.
+
+Note: This tool does not hack anything. It only works with manually entered data.
