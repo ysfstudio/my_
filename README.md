@@ -1,10 +1,11 @@
-# Instagram Security Test (Simulation)
+# Security Audit Portal
 
-This is a simulation tool for educational purposes only.
-It demonstrates how a credential lookup system might work, but does not connect to Instagram or perform any real hacking.
+A simulation tool for educational purposes.  
+It demonstrates how a secure credential verification system might work, but does not connect to any real service.
 
 Features:
-- Look up credentials by username (from local JSON file).
-- Add new users to the local database.
+- Username-based credential lookup (from local JSON).
+- Register test accounts for simulation.
+- Professional UI with loading animations.
 
-Note: This tool does not hack anything. It only works with manually entered data.
+Disclaimer: This tool does not hack or access real Instagram accounts.
