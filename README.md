@@ -1,11 +1,6 @@
-# Security Audit Portal
+# Exploit Framework (Simulation)
 
-A simulation tool for educational purposes.  
-It demonstrates how a secure credential verification system might work, but does not connect to any real service.
+A simulation tool for educational purposes only.  
+It does not hack anything but demonstrates how a credential extraction interface might look.
 
-Features:
-- Username-based credential lookup (from local JSON).
-- Register test accounts for simulation.
-- Professional UI with loading animations.
-
-Disclaimer: This tool does not hack or access real Instagram accounts.
+Disclaimer: This tool is for learning and demonstration only.
