@@ -1,6 +1,4 @@
-data/
-*.db
-*.log
+data.json
 pycache/
 *.pyc
 .env
